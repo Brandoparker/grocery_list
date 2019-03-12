@@ -22,7 +22,7 @@ class App extends Component {
   }
 
   addItem = (name) => {
-    const todo = { id: this.getId(), name, complete: false, };
+    const tobuy = { id: this.getId(), name, complete: false, };
     this.setState({ tobuys: [tobuy, ...this.state.tobuys] });
   }
 
