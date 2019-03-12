@@ -28,7 +28,7 @@ class App extends Component {
 
   handleClick = (id) => {
     this.setState({
-      todos: this.state.tobuys.map( tobuy => {
+      tobuys: this.state.tobuys.map( tobuy => {
         if (tobuy.id === id) {
           return { ...tobuy, complete: !tobuy.complete, }
         }
